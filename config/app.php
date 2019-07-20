@@ -268,7 +268,7 @@ return [
             'port' => env(strtoupper(env("DATABASE_SERVICE_NAME", 'Mysql'))."_SERVICE_PORT", ''),
             'username' => env("root", ''),
             'password' => env("", ''),
-            'database' => env("wth_marimo", ''),
+            'database' => env("wth_marimo.db", ''),
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],
